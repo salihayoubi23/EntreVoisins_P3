@@ -35,10 +35,10 @@ public class NeighbourFragment extends Fragment {
      * Create and return a new instance
      * @return @{@link NeighbourFragment}
      */
-    public static NeighbourFragment newInstance(int mPosition) {
+    public static NeighbourFragment newInstance(int position) {
         NeighbourFragment fragment = new NeighbourFragment();
         Bundle args = new Bundle();
-        args.putInt("position", mPosition);
+        args.putInt("position", position);
         fragment.setArguments(args);
         return fragment;
     }
@@ -103,7 +103,7 @@ public class NeighbourFragment extends Fragment {
         mApiService.deleteNeighbour(event.neighbour);
         initList();
     }
-    @Subscribe()
+    @Subscribe(sticky = true, threadMode = ThreadMode.MAIN)
     public  void onFavoriteEvent(FavoriteNeighbourEvent event){
         initList();
     }

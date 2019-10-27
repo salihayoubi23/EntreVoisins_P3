@@ -81,10 +81,6 @@ public class DetailNeighbour extends AppCompatActivity {
 
     }
 
-    @Subscribe
-    public void onFavoriteNeighbour(FavoriteNeighbourEvent event) {
-        mNeighbourApiService.changeFavoriteStatus(event.neighbour);
-    }
 
     private void ColorFavoriteButton() {
 

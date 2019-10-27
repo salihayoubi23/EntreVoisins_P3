@@ -36,10 +36,6 @@ public interface NeighbourApiService {
 
     void changeFavoriteStatus(Neighbour neighbour);
 
-    /**
-     * @param idNeighbour
-     * @return id
-     */
 
     Neighbour getNeighbour(int idNeighbour);
 }
