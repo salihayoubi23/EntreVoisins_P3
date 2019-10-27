@@ -43,10 +43,19 @@ public class DummyNeighbourApiService implements  NeighbourApiService {
         return neighbour;
     }
 
+    /**
+     *
+     * @param neighbour is favorite
+     */
     public void changeFavoriteStatus(Neighbour neighbour) {
 
         neighbour.setFavorite(!neighbour.isFavorite());
     }
+
+    /**
+     *
+     * @return favorite list
+     */
 
     public List<Neighbour> getFavorites() {
         List<Neighbour> favorites = new ArrayList();

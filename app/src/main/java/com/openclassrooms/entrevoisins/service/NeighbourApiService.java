@@ -22,9 +22,24 @@ public interface NeighbourApiService {
      */
     void deleteNeighbour(Neighbour neighbour);
 
+    /**
+     *
+     * @return  favorite
+     */
+
     List<Neighbour> getFavorites();
 
+    /**
+     *
+     * @param neighbour
+     */
+
     void changeFavoriteStatus(Neighbour neighbour);
+
+    /**
+     * @param idNeighbour
+     * @return id
+     */
 
     Neighbour getNeighbour(int idNeighbour);
 }
