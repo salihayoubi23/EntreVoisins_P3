@@ -80,8 +80,7 @@ public class DetailNeighbour extends AppCompatActivity {
         });
 
     }
-
-
+    // method color favorite button
     private void ColorFavoriteButton() {
 
         if (mNeighbour.isFavorite()) {

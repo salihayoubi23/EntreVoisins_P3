@@ -28,6 +28,7 @@ public class NeighbourFragment extends Fragment {
 
     private NeighbourApiService mApiService;
     private RecyclerView mRecyclerView;
+    //adding a position variable
     private int mPosition;
 
 
