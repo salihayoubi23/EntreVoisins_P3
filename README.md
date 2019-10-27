@@ -13,7 +13,7 @@ English:
   access this repository with this link, download or import the project on Android Studio
   In order to compile the project, you have the choice either by selecting a virtual emulator or on a real smartphone,
   finally click on Run 'app', the code will compile automatically.
-  Here are the features present in the Entrevoisins avant modification application:
+  Here are the features present in the Entrevoisins before modification :
   
    ● list my neighbors;
    
