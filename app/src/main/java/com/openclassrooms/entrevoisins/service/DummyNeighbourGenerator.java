@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public abstract class DummyNeighbourGenerator {
-    public static String APROPOS = "Bonjour,jesouhaiterais faire de la marche nordique.Pas initié je cherches une ou plusieurs personnes succeptible de m'accompagner.J'aime les jeux de carte tel que la belotte et le tarot";
+    public static String APROPOS = "Bonjour,je souhaiterais faire de la marche nordique.Pas initié je cherches une ou plusieurs personnes succeptible de m'accompagner.J'aime les jeux de carte tel que la belotte et le tarot";
     public static List<Neighbour> DUMMY_NEIGHBOURS = Arrays.asList(
             new Neighbour(1, "Caroline", "http://i.pravatar.cc/150?u=a042581f4e29026704d","Saint Pierre Du Mont",5,"+33686579014","www.facebook.fr/caroline",APROPOS),
             new Neighbour(2, "Jack", "http://i.pravatar.cc/150?u=a042581f4e29026704e","Saint Pierre Du Mont",5,"+33686579014","www.facebook.fr/Jacque",APROPOS),
